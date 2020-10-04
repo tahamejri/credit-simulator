@@ -1,0 +1,23 @@
+.slider-grp{
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+.sliderh{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sliderhamount{
+    border: solid #E9502B 1px;
+    padding: 0.5em 1em ;
+    border-radius: 3px;
+    font-size: 0.8em;
+    width: 2.9rem;
+    text-align: center;
+}
+.sliderhtype{
+    
+    margin: 0px;
+    font-weight: 600;
+}

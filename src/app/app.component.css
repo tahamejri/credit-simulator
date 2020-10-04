@@ -1,0 +1,16 @@
+.content{
+    /*height: 100vh;*/
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 5em;
+padding-top: 1em;
+    max-width: 85%;
+    margin:auto;
+  /*  border:solid pink;*/
+    display: flex;
+    
+    
+}
+.ng5-slider .ng5-slider-tick{
+    width: 0px !important;
+    }

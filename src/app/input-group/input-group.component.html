@@ -1,0 +1,16 @@
+<div class="input-grp">
+<p class="title">Simulation crédit à la consommation</p>
+<div class="input-grp2">
+<app-select-group
+(update)='handleType($event)'
+></app-select-group>
+<div *ngFor="let m of data">
+    <app-slider-group 
+    [data]='m'
+    (update)='onUpdate($event)'
+    ></app-slider-group>    
+  
+ </div>
+ <button id="awesomePart" class="submitbutton" (click)="onClick()">Obtenez un pré-accord</button>
+</div>
+</div>

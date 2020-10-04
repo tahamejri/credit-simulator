@@ -1,0 +1,34 @@
+.project-type{
+    /*font-size:1.2em;*/
+    margin-bottom: 0.5em;
+}
+.select-input{
+    width: 100%;
+    border-radius: 5px;
+    padding : 1em;
+    text-align: center;
+}
+.select-input:active{
+}
+.select-grp{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.select-check{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.checked{
+    margin-left: 0.5rem;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translatey(-50%)
+}
+.know-more{
+    margin-top: 0.3rem;
+    font-size: 9px;
+    color:gray;
+    cursor: pointer;
+}

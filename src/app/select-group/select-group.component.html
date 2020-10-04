@@ -1,0 +1,14 @@
+<div class="select-grp">
+<h5 class="project-type">
+ Votre projet</h5>
+ <div class="select-check">
+<select class="select-input" (change) = 'handleChange($event)' (click) = "onclickselect($event)" >
+    <option value="0">Crédit Auto</option>
+    <option value="1">Crédit Personel</option>
+    <option value="2">Crédit D'amenagement</option>
+</select>
+<i class="fas fa-check-circle checked" style="color:#65C74E" *ngIf="!activeSelect"></i>
+<i class="far fa-check-circle checked" *ngIf="activeSelect"></i>
+</div>
+<span class="know-more" (click)="knwMoreClick('#know-more')">+En savoir plus sur le type de crédit</span>
+</div>

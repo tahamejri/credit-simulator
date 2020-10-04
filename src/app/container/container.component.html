@@ -1,0 +1,10 @@
+<div class="container-style" *ngIf ='activate'>
+   
+<app-side-info
+[description]="description">
+</app-side-info>
+<app-input-group
+[data]="credData"
+(update)="onUpdate($event)">    
+</app-input-group>
+</div>

@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+.content{
+    font-family: "adobe-clean", sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+}
+*:focus {outline:0;}
+.ng5-slider .ng5-slider-tick{
+    width: 0px !important;
+    }
+.ng5-slider .ng5-slider-pointer {
+    height: 20px !important;
+    width: 20px !important;
+    border: solid #E9502B 2px;
+    top: -10px !important;
+    background-color: white !important;
+}
+.ng5-slider .ng5-slider-pointer:after{
+    background-color: #E9502B !important;
+    width: 10px !important;
+    height:  10px !important;
+    top: 4px !important;
+    left: 5px !important;
+    border-radius: 50% !important;
+}
+.ng5-slider .ng5-slider-bar {
+    height: 6px !important;
+    font-size: 0.8em !important;
+}
+
+.ng5-slider-span .ng5-slider-bubble .ng5-slider-model-value{
+    font-size: 0.1em !important;
+}
+.ng5-slider-inner-tooltip{
+    font-size: 0.8em !important;
+}

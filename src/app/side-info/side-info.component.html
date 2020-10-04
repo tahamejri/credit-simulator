@@ -1,0 +1,11 @@
+<div class="sideinfo">
+
+      <span class="fa-stack fa-3x">
+        <i class="fa fa-circle-thin fa-stack-2x" style="color:white"></i>
+        <i *ngIf="description.logo == 'car'" class="fas fa-car fa-stack-1x"style="color:white"></i>
+        <i *ngIf="description.logo == 'personal'" class=" fas fa-home fa-stack-1x"style="color:white"></i>
+        <i *ngIf="description.logo == 'home'" class="fas fa-tools fa-stack-1x"style="color:white"></i>
+      </span>
+    <h2>{{description.title}}</h2>
+<p class="side-text"> {{description.des}}</p>
+</div>

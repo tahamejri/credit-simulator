@@ -1,0 +1,7 @@
+<div class="slider-grp">
+    <div class="sliderh">
+        <h5 class="sliderhtype">{{data.type}}</h5>
+        <span class ="sliderhamount">{{data.value + data.unity}}</span>
+    </div>
+<ng5-slider [(value)]="data.value" (valueChange)="valueChange($event)" [options]="options"></ng5-slider>
+</div>

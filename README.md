@@ -10,6 +10,7 @@ to run app :
     -npm run server
     
 2-  from root directory : 
+
      -npm install
      -ng serve
              
